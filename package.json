@@ -1,0 +1,20 @@
+{
+  "name": "simple-media-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "DEV=true npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.8"
+  }
+}
